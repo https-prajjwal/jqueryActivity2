@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Activity-1</title>
+  <script src = "jquery.js"></script>
+</head>
+<body>
+  <h1>Welcome, to jQuery</h1>
+  <p id = "my-name" style="background-color: green;">My name is prajjwal.</p>
+  <button onclick="setname()">Click Me</button>
+
+
+  <script>
+    var i = 0
+    function setname(){
+    //   $("#my-name").text("Prajjwal")
+    if (i%2==0){
+      $("#my-name").css("background-color","red")}
+    else{
+      $("#my-name").css("background-color","yellow")} 
+      i++
+    }
+    
+
+    
+
+
+  </script>
+</body>
+</html>
